@@ -13,12 +13,12 @@
         <input type = "text" placeholder = "Select Your Screenname" ng-model="screenname">
         <button type="submit"> Set Screenname </button>
       </form>
-      <form ng-submit="addChat(newChat)">
+      <form ng-submit="addChat(newChat.message)">
       <input type="text" placeholder="Say the things" ng-model="newChat.message">
       <button type="submit"> sayStuff </button>
 
     </form>
-    <button class = "delete" ng-click ="deleteChats()"> Armeggeddon </button>
+    <button class = "delete" ng-click ="deleteChats()"> Delete All </button>
       <div class = "messages">
       <div class = "message" ng-repeat = "chat in chats">
         <span class = "screenname">{{chat.screenname}}</span>

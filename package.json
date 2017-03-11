@@ -1,7 +1,7 @@
 {
-  "name": "superSimpleServer",
+  "name": "supersimpleserver",
   "version": "1.0.0",
-  "description": "",
+  "description": "To practice connecting a front end angular application to a node backend.",
   "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.14.2",
-    "express": "^4.13.4",
-    "express-session": "^1.14.0"
-  }
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uncoolplane/simple-node-connect-drill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uncoolplane/simple-node-connect-drill/issues"
+  },
+  "homepage": "https://github.com/uncoolplane/simple-node-connect-drill#readme"
 }
